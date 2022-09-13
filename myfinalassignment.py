@@ -10,4 +10,3 @@ st.write(pd.DataFrame({
 }))
 
 st.balloons()
-    "Done"
