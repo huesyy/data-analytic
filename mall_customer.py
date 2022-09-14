@@ -3,6 +3,7 @@ file = "mall_customer.csv"
 import streamlit as st
 import numpy as np
 import pandas as pd
+streamlit run [entrypoint file]
 df = pd.read_csv(file)
 
 features = ['Annual_Income_(k$)', 'Spending_Score']
