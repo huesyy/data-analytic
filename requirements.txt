@@ -2,5 +2,5 @@ altair
 pandas
 streamlit
 sklearn
-matplotlib.pyplot
-plotly.tools 
+matplotlib
+plotly
