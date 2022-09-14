@@ -2,10 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv(mall_customer.csv)
-
-features = ['Annual_Income_(k$)', 'Spending_Score']
-X = df[features]
 
 arr = np.random.normal(1, 1, size=100)
 fig, ax = plt.subplots(X['Annual_Income_(k$)'], X['Spending_Score'])
